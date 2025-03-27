@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUR BOOKS DISPLAYER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>OUR BOOKS DISPLAYER</h1>
+        <div class="controls">
+            <div class="search-container">
+                <input type="text" id="search" placeholder="Search by title or author...">
+                <button id="search-btn"><i class="fas fa-search">Search</i></button>
+            </div>
+            <div class="sort-container">
+                <label for="sort">Sort by:</label>
+                <select id="sort">
+                    <option value="title-asc">Title (A-Z)</option>
+                    <option value="title-desc">Title (Z-A)</option>
+                    <option value="date-asc">Date (Oldest)</option>
+                    <option value="date-desc">Date (Newest)</option>
+                </select>
+            </div>
+            <div class="view-toggle">
+                <button id="grid-view" class="active">Grid</button>
+                <button id="list-view">List</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="books-container" class="grid-view"></div>
+        <div id="loading" class="loading">Loading more books...</div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
