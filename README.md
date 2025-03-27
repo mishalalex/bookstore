@@ -28,7 +28,7 @@ GET https://api.freeapi.app/api/v1/public/books
 ```
 
 For detailed API documentation, visit:
-FreeAPI Books API Documentation
+[FreeAPI Books API Documentation](https://freeapi.hashnode.space/api-guide/apireference/getBooks)
 
 ## Installation
 
